@@ -1,0 +1,93 @@
+html{
+  margin: 0;
+  padding: 0;
+  background-color: #1f232a;
+}
+
+body{
+  margin: 0 ;
+  /* background-color: lightgrey; */
+}
+
+
+
+.upload{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f232a;
+  padding: 10px;
+  margin-left: 10px;
+}
+.landing{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 8rem; */
+  background-color: #1f232a;
+}
+.leftPart{
+  /* margin-left: -3rem; */
+  background-color: #1f232a;
+
+}
+.rightPart{
+  height: 100vh;
+  /* margin-right: 3rem; */
+  background-color: #2c3137;
+  width: 50vw;
+  margin-left: 20%;
+}
+.record{
+  
+  /* border: 2px solid black; */
+  /* border-radius: 756px; */
+  border: 2px solid ;
+  border-radius: 15px;
+  background-color: #1f232a;
+  padding: 10px;
+  margin-top: 154px;
+  margin-right: 80px;
+  margin-left: 80px;
+  /* margin-top: 20px; */
+}
+
+.recordInside{
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(100, 100, 100, 0.5);
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  margin: auto;
+  margin-top: 10%;
+  box-shadow: 0 0 2px 2px black;
+}
+
+.recordInside h2{
+  font-size: 40px;
+}
+
+.allowsTeam{
+  background-color:  #1F232C;
+  width: 600px;
+  height: 103px;
+  margin-top: 200px;
+  margin-left: 122px;
+  border-radius: 45px 0 0 45px;
+}
+.allowsTeam p{
+  color: #f9662e;
+  font-family: monospace;
+  font-size: 18px;
+  font-weight: 700;
+  margin-left: 60px;
+  
+}
+.bin{
+  width: 20px;
+  background: none;
+  cursor: pointer;
+}
